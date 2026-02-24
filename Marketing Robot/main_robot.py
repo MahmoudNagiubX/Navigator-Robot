@@ -1,6 +1,7 @@
 import speech_recognition as sr
 import pyttsx3
 import json
+import os
 
 # Phase 3: The Mouth (Setup)
 def speak(text):
@@ -16,15 +17,18 @@ def speak(text):
     
 # Phase 2: The Brain & Database
 def process_question(user_text):    # Check if the question is off-topic!
-    allowed_keywords = ["ecu", "university", "college",
-                        "engineering", "faculty", "library", "cafeteria", "lab", "dean"]
+    allowed_keywords = ["ecu", "university", "college", "engineering", "faculty", 
+                        "library", "cafeteria", "lab", "dean", "founded", "created", 
+                        "programs", "departments"]
     is_on_topic = any(keyword in user_text for keyword in allowed_keywords)
     
     if not is_on_topic:
         return "I am an ECU Engineering assistant. I cannot answer questions outside of college topics."
     
-    try:    # Load real Database
-        with open("ecu_database.json", "r") as file:
+    try:    # Load real Database\
+        current_folder = os.path.dirname(os.path.abspath(__file__))
+        database_path = os.path.join(current_folder, "ecu_database.json")
+        with open(database_path, "r", encoding="utf-8") as file:
             database = json.load(file)
     except FileNotFoundError:
         return "Error: I am sorry, I do not have that in my database yet."
@@ -35,11 +39,14 @@ def process_question(user_text):    # Check if the question is off-topic!
         
     # Search for History/Facts (Basic Keyword matching) 
     if "founded" in user_text or "created" in user_text:
-        return f"The university was founded in {database['university_info']['founded']}."
+        year = database['university_core']['foundation_year']
+        return f"The university was founded in {year}."
     
-    if "programs" in user_text or "departments" in user_text:
-        programs = ", ".join(database["engineering_faculty"]["programs"])
-        return f"The engineering programs are: {programs}."
+    if "programs" in user_text or "departments" in user_text:   # Loop through the new departments list to get their names
+        departments = database["faculty_of_engineering_and_technology"]["academic_departments"]
+        program_names = [dept["department_name"] for dept in departments]
+        programs_text = ", ".join(program_names)
+        return f"The engineering programs are: {programs_text}."
 
     return "I am still learning about ECU. I don't have the answer to that specific question yet."
 
