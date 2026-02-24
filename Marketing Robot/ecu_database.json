@@ -13,8 +13,8 @@
     "legal_foundation": "Presidential Decree No. (118) for the year 2013",
     "university_model": "Private, Technological, Productive, Non-traditional",
     "official_website": "https://ecu.edu.eg/",
-    "campuses": [],
-    "international_academic_partners": [],
+    "campuses": ["Gesr El Suez" , "Nasr City"],
+    "international_academic_partners": ["Association of African Universities, Ghana." , "Association of Arab Universities, Amman."],
     "institutional_mission": "To build the student's productive personality as a productive research educational university adapted to the evolving needs of the 21st century labor markets. Promotes entrepreneurship, factory establishment, and the transfer of Chinese technical experience.",
     "macro_leadership": {
       "board_of_trustees_head": "Dr. Karima Abdelkareem",
@@ -183,11 +183,7 @@
       "electrical_and_electronics": [],
       "thermal_and_fluid_sciences": [],
       "mechanical_and_mechatronics": [],
-      "core_sciences_and_computing": [
-        "Chemistry Lab",
-        "Physics Lab",
-        "Computer Labs"
-      ]
+      "core_sciences_and_computing": ["Chemistry Lab","Physics Lab","Computer Labs"]
     }
   },
   "locations": {
