@@ -1,5 +1,6 @@
 import speech_recognition as sr
 import pyttsx3
+import json
 
 # Phase 3: The Mouth (Setup)
 def speak(text):
@@ -14,19 +15,33 @@ def speak(text):
     engine.stop()
     
 # Phase 2: The Brain & Database
-def process_question(user_text):
-    college_map = {
-        "library": "on the first floor, next to the main entrance",
-        "cafeteria": "on the ground floor, at the end of the hall",
-        "lab 1": "on the second floor, room 204",
-        "dean": "on the third floor, room 301"
-    }
+def process_question(user_text):    # Check if the question is off-topic!
+    allowed_keywords = ["ecu", "university", "college",
+                        "engineering", "faculty", "library", "cafeteria", "lab", "dean"]
+    is_on_topic = any(keyword in user_text for keyword in allowed_keywords)
     
-    for room, location in college_map.items():
-        if room in user_text:
+    if not is_on_topic:
+        return "I am an ECU Engineering assistant. I cannot answer questions outside of college topics."
+    
+    try:    # Load real Database
+        with open("ecu_database.json", "r") as file:
+            database = json.load(file)
+    except FileNotFoundError:
+        return "Error: I am sorry, I do not have that in my database yet."
+           
+    for room, location in database["locations"].items(): # Search for locations
+        if room in user_text:   
             return f"The {room} is {location}."
-            
-    return "I am sorry, I do not have that location in my database yet."
+        
+    # Search for History/Facts (Basic Keyword matching) 
+    if "founded" in user_text or "created" in user_text:
+        return f"The university was founded in {database['university_info']['founded']}."
+    
+    if "programs" in user_text or "departments" in user_text:
+        programs = ", ".join(database["engineering_faculty"]["programs"])
+        return f"The engineering programs are: {programs}."
+
+    return "I am still learning about ECU. I don't have the answer to that specific question yet."
 
 # Phase 1: The Ears (Listening Loop)
 def run_robot():

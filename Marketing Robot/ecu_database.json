@@ -5,7 +5,6 @@
     "schema_type": "Relational Institutional Ontology",
     "data_completeness": "Exhaustive (2013-Present)"
   },
-  
   "university_core": {
     "official_name": "Egyptian Chinese University",
     "acronym": "ECU",
@@ -14,15 +13,15 @@
     "legal_foundation": "Presidential Decree No. (118) for the year 2013",
     "university_model": "Private, Technological, Productive, Non-traditional",
     "official_website": "https://ecu.edu.eg/",
-    "campuses":,
-    "international_academic_partners":,
+    "campuses": [],
+    "international_academic_partners": [],
     "institutional_mission": "To build the student's productive personality as a productive research educational university adapted to the evolving needs of the 21st century labor markets. Promotes entrepreneurship, factory establishment, and the transfer of Chinese technical experience.",
     "macro_leadership": {
       "board_of_trustees_head": "Dr. Karima Abdelkareem",
       "university_president": "Prof. Dr. Rasha El-Kholy",
       "president_background": "25 years experience in water resources management, sustainable development, environmental protection, WEF nexus. Senate of the Euro Mediterranean University (EMUNI). Consultant for FAO-UN. Manager of H2020, Erasmus+, Tempus EU projects.",
       "university_vice_president": "Prof. Dr. Reda Al-Barqouqi",
-      "scientific_advisors":
+      "scientific_advisors": []
     },
     "decanal_leadership_non_engineering": {
       "physical_therapy": {
@@ -47,12 +46,12 @@
       }
     },
     "admissions_framework": {
-      "egyptian_nationals_requirements":,
+      "egyptian_nationals_requirements": [],
       "international_requirements": {
         "general_mandate": "Original Secondary School Certificate stamped by Egyptian Embassy or Ministry of Foreign Affairs",
         "saudi_arabia_specific": "Secondary Certificate plus General Abilities Test with username and password provided to Admissions",
         "yemen_specific": "Proof of 12 years of schooling stamped by school and certified by Educational Zone",
-        "cultural_counselor_recommendation_required":
+        "cultural_counselor_recommendation_required": false
       }
     },
     "financial_architecture_2023_2024_egp": {
@@ -128,11 +127,15 @@
         "name": "Assoc. Prof. Ahmed Mostafa"
       }
     },
-    "academic_departments":,
+    "academic_departments": [
+      {
+        "department_name": "General Engineering / Foundations",
+        "personnel_registry": {
+          "academic_staff_doctors": [],
           "assistant_lecturers": [
             "Eng. Hazem Hossam El-din Mostafa"
           ],
-          "teaching_assistants":
+          "teaching_assistants": []
         }
       },
       {
@@ -143,9 +146,9 @@
           "head_of_department": "Assoc. Prof. Rania Swaif"
         },
         "personnel_registry": {
-          "academic_staff_doctors":,
-          "assistant_lecturers":,
-          "teaching_assistants":
+          "academic_staff_doctors": [],
+          "assistant_lecturers": [],
+          "teaching_assistants": []
         }
       },
       {
@@ -156,9 +159,9 @@
           "head_of_department": "Assoc. Prof. Mohamed Ismail Mohamed Ahmed"
         },
         "personnel_registry": {
-          "academic_staff_doctors":,
-          "assistant_lecturers":,
-          "teaching_assistants":
+          "academic_staff_doctors": [],
+          "assistant_lecturers": [],
+          "teaching_assistants": []
         }
       },
       {
@@ -169,22 +172,28 @@
           "charge_daffaires": "Prof. Mohamed Talaat Moustafa"
         },
         "personnel_registry": {
-          "academic_staff_doctors":,
-          "assistant_lecturers":,
-          "teaching_assistants":
+          "academic_staff_doctors": [],
+          "assistant_lecturers": [],
+          "teaching_assistants": []
         }
-      },
+      }
     ],
     "laboratory_infrastructure": {
-      "systems_and_control":,
-      "electrical_and_electronics":,
-      "thermal_and_fluid_sciences":,
-      "mechanical_and_mechatronics":,
+      "systems_and_control": [],
+      "electrical_and_electronics": [],
+      "thermal_and_fluid_sciences": [],
+      "mechanical_and_mechatronics": [],
       "core_sciences_and_computing": [
         "Chemistry Lab",
         "Physics Lab",
         "Computer Labs"
       ]
     }
+  },
+  "locations": {
+      "library": "on the first floor, next to the main entrance",
+      "cafeteria": "on the ground floor, at the end of the hall",
+      "lab 1": "on the second floor, room 204",
+      "dean": "on the third floor, room 301"
   }
 }
