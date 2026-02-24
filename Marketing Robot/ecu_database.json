@@ -1,0 +1,190 @@
+{
+  "database_metadata": {
+    "target_institution": "Egyptian Chinese University (ECU)",
+    "primary_focus": "Faculty of Engineering and Technology",
+    "schema_type": "Relational Institutional Ontology",
+    "data_completeness": "Exhaustive (2013-Present)"
+  },
+  
+  "university_core": {
+    "official_name": "Egyptian Chinese University",
+    "acronym": "ECU",
+    "name_arabic": "الجامعة المصرية الصينية",
+    "foundation_year": "2013",
+    "legal_foundation": "Presidential Decree No. (118) for the year 2013",
+    "university_model": "Private, Technological, Productive, Non-traditional",
+    "official_website": "https://ecu.edu.eg/",
+    "campuses":,
+    "international_academic_partners":,
+    "institutional_mission": "To build the student's productive personality as a productive research educational university adapted to the evolving needs of the 21st century labor markets. Promotes entrepreneurship, factory establishment, and the transfer of Chinese technical experience.",
+    "macro_leadership": {
+      "board_of_trustees_head": "Dr. Karima Abdelkareem",
+      "university_president": "Prof. Dr. Rasha El-Kholy",
+      "president_background": "25 years experience in water resources management, sustainable development, environmental protection, WEF nexus. Senate of the Euro Mediterranean University (EMUNI). Consultant for FAO-UN. Manager of H2020, Erasmus+, Tempus EU projects.",
+      "university_vice_president": "Prof. Dr. Reda Al-Barqouqi",
+      "scientific_advisors":
+    },
+    "decanal_leadership_non_engineering": {
+      "physical_therapy": {
+        "dean": "Prof. Sami Abdelsamad Nasef",
+        "details": "Licensed physical therapist (USA), Kinesiology Tape lecturer (South Korea), former Vice Dean at Cairo University."
+      },
+      "pharmacy_and_drug_technology": {
+        "dean": "Prof. Mina Tadros",
+        "details": "External reviewer for NAQAAE, co-inventor of two patents."
+      },
+      "economics_and_international_trade": {
+        "dean": "Prof. Ashraf Helmy"
+      },
+      "computer_science": {
+        "acting_dean": "Dr. Soha Safwat"
+      },
+      "arts_and_design": {
+        "dean": "Prof. Abdul Rahman Rajab"
+      },
+      "veterinary_medicine": {
+        "dean": "Prof. Ahmed Al-Shayeb"
+      }
+    },
+    "admissions_framework": {
+      "egyptian_nationals_requirements":,
+      "international_requirements": {
+        "general_mandate": "Original Secondary School Certificate stamped by Egyptian Embassy or Ministry of Foreign Affairs",
+        "saudi_arabia_specific": "Secondary Certificate plus General Abilities Test with username and password provided to Admissions",
+        "yemen_specific": "Proof of 12 years of schooling stamped by school and certified by Educational Zone",
+        "cultural_counselor_recommendation_required":
+      }
+    },
+    "financial_architecture_2023_2024_egp": {
+      "payment_structure": "Two installments: First installment is 60% of annual fees plus laboratory and administrative fees. Second installment is 40% of annual fees.",
+      "faculties": {
+        "engineering_and_technology": {
+          "total_annual": 56000,
+          "first_installment_base": 33600,
+          "second_installment": 22400
+        },
+        "economics_and_international_trade": {
+          "total_annual": 44000,
+          "first_installment_base": 26400,
+          "second_installment": 17600
+        },
+        "physical_therapy": {
+          "total_annual": 78000,
+          "first_installment_base": 46800,
+          "second_installment": 31200
+        },
+        "pharmacy_and_drug_technology": {
+          "total_annual": 98000,
+          "first_installment_base": 55800,
+          "second_installment": 39200
+        }
+      }
+    }
+  },
+  "faculty_of_engineering_and_technology": {
+    "operational_start_year": "2016",
+    "pedagogical_framework": {
+      "language_of_instruction": "English",
+      "academic_system": "Credit Hour System",
+      "credit_hour_definition": "1 credit hour = 1 hour lecture OR 2 hours tutorial OR 3 hours lab",
+      "total_credit_hours_required": "180 hours under Legacy Plan, 145 hours under New Plan",
+      "minimum_graduation_gpa": "2.0 on a 4.0 scale",
+      "practical_load": "Practice-oriented teaching strategy comprising approximately 50% practical/laboratory study load"
+    },
+    "executive_leadership_big_heads": {
+      "dean_of_engineering_and_technology": {
+        "name": "Prof. Mohamed Talaat Moustafa",
+        "academic_history": "B.Sc. (2000), M.Sc. (2005), and Ph.D. (2009) from Zagazig University. Ph.D. thesis on 'Electrical Trees in Solid Insulation Analysis'. Full Professor of Electrical Power Systems since July 2021.",
+        "global_recognition": "Listed on Stanford University's World's Top 2% Scientists List for 2022 and 2023.",
+        "professional_experience": "Former Head of Electrical Department at Shaqra University (KSA) securing 8-year ABET accreditation. Former IT Unit Manager and Consultant for Egyptian Ministry of Higher Education.",
+        "research_focus": "Renewable energy integration, Artificial Intelligence applications in power systems, IoT, smart and microgrids monitoring.",
+        "publications": "Over 75 research papers.",
+        "contact_protocols": [
+          "mtalaat@ecu.edu.eg",
+          "m_mtalaat@eng.zu.edu.eg",
+          "m_mtalaat@yahoo.com"
+        ]
+      },
+      "vice_dean_graduate_studies_and_research": {
+        "name": "Prof. Nabil Hassan Mostafa",
+        "birth_date": "January 6, 1956",
+        "academic_history": "B.Sc. (1979), M.Sc. in Solar Energy (1982), Ph.D. in Mechanical Power Engineering (1988) from Mansoura University. Ph.D. thesis on cavitation phenomenon and erosion in centrifugal pump impellers.",
+        "professional_experience": "Former Dean of Engineering at Delta University. Former CIO at Zagazig University. Adviser for the Minister of Higher Education (2016-2018). Visiting Professor at Virginia Tech (USA).",
+        "research_focus": "Computational fluid dynamics (CFD), Mechatronics, Green Energy.",
+        "metrics": "H-index of 6."
+      },
+      "vice_dean_community_service_and_environmental_development": {
+        "name": "Prof. Dr. Amr Ibrahim",
+        "birth_date": "November 15, 1975",
+        "academic_history": "B.Sc. (1998), M.Sc. (2003), Ph.D. in Electrical Power and Machines Engineering (2008) from Ain Shams University. Ph.D. thesis on 'Protection for Flexible AC Transmission Systems'.",
+        "professional_experience": "Former electrical engineer for ABB (Industrial Systems). Professor in Department of Electric Power and Machines.",
+        "research_focus": "Distributed generation, renewable energy, control engineering, power system optimization.",
+        "publications": "Over 40 papers and supervised over 10 Ph.D./M.Sc. theses.",
+        "contact_protocols": [
+          "amr_rizk@eng.asu.edu.eg"
+        ]
+      },
+      "vice_dean_education_and_student_affairs": {
+        "name": "Assoc. Prof. Ahmed Mostafa"
+      }
+    },
+    "academic_departments":,
+          "assistant_lecturers": [
+            "Eng. Hazem Hossam El-din Mostafa"
+          ],
+          "teaching_assistants":
+        }
+      },
+      {
+        "department_name": "Software Engineering & Information Technology",
+        "acronym": "SET",
+        "pedagogical_focus": "Computer engineering, software architecture, mobile and distributed computing, cybersecurity. Complies with NARS2018 standards. Prepares graduates as Developers, Technology Enablers, Researchers, and IT Managers. Emphasis on User Experience (UX) design and scalable systems.",
+        "leadership": {
+          "head_of_department": "Assoc. Prof. Rania Swaif"
+        },
+        "personnel_registry": {
+          "academic_staff_doctors":,
+          "assistant_lecturers":,
+          "teaching_assistants":
+        }
+      },
+      {
+        "department_name": "Mechatronics Engineering",
+        "acronym": "MCT",
+        "pedagogical_focus": "Multidisciplinary integration of mechanical systems, electronics, and computer engineering. Specializations offered in Autotronics, Nanomechatronics, Industrial Mechatronics, and Bio-Mechatronics. Focus on automation, robotics, and autonomous systems.",
+        "leadership": {
+          "head_of_department": "Assoc. Prof. Mohamed Ismail Mohamed Ahmed"
+        },
+        "personnel_registry": {
+          "academic_staff_doctors":,
+          "assistant_lecturers":,
+          "teaching_assistants":
+        }
+      },
+      {
+        "department_name": "Construction and Building Engineering",
+        "acronym": "CBE",
+        "pedagogical_focus": "Treats modern buildings as advanced technological systems. Focus on life cycle analysis, passive solar engineering, indoor air quality, building acoustics, envelope design, and earthquake resistance. Goal of engineering affordable housing solutions.",
+        "leadership": {
+          "charge_daffaires": "Prof. Mohamed Talaat Moustafa"
+        },
+        "personnel_registry": {
+          "academic_staff_doctors":,
+          "assistant_lecturers":,
+          "teaching_assistants":
+        }
+      },
+    ],
+    "laboratory_infrastructure": {
+      "systems_and_control":,
+      "electrical_and_electronics":,
+      "thermal_and_fluid_sciences":,
+      "mechanical_and_mechatronics":,
+      "core_sciences_and_computing": [
+        "Chemistry Lab",
+        "Physics Lab",
+        "Computer Labs"
+      ]
+    }
+  }
+}
