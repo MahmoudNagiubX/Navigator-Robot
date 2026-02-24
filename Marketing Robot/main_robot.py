@@ -17,9 +17,22 @@ def speak(text):
     
 # Phase 2: The Brain & Database
 def process_question(user_text):    # Check if the question is off-topic!
-    allowed_keywords = ["ecu", "university", "college", "engineering", "faculty", 
-                        "library", "cafeteria", "lab", "dean", "founded", "created", 
-                        "programs", "departments"]
+    allowed_keywords = [
+        # General College & History
+        "ecu", "university", "college", "campus", "founded", "created", "mission", "history",
+        # Places & Navigation
+        "library", "cafeteria", "lab", "room", "floor", "building", "hall", "entrance",
+        # People & Leadership
+        "dean", "president", "doctor", "prof", "professor", "head", "staff", "assistant",
+        # Engineering & Departments
+        "engineering", "faculty", "mechatronics", "software", "construction", "building", 
+        "energy", "technology", "mct", "set", "cbe", "departments", "programs",
+        # Academics & Admissions
+        "credit", "hours", "gpa", "system", "practical", "graduation", "admission", "requirements",
+        # Financials
+        "fees", "cost", "pay", "installment", "money", "price"
+    ]
+    
     is_on_topic = any(keyword in user_text for keyword in allowed_keywords)
     
     if not is_on_topic:
